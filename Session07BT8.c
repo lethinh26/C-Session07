@@ -8,7 +8,7 @@ int main() {
 	int num[i][j];
 	for (i = 0; i < sizeof(num)/sizeof(num[0]); i++) {
 		for (j = 0; j < sizeof(num[0])/sizeof(num[0][0]); j++) {
-			printf("Nhap phan tu thu %d cua cot %d: ", j+1,i+1);
+			printf("Nhap phan tu thu %d cua cot %d: ", j,i);
 			scanf("%d", &value);
 			num[i][j] = value;
 		}
