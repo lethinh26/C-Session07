@@ -6,7 +6,7 @@ int main() {
 	int num[i];
 	for (i = 0; i < sizeof(num)/sizeof(int); i++) {
 		while(1) {
-			printf("Nhap phan tu thu %d: ", i+1);
+			printf("Nhap phan tu thu %d: ", i);
 			scanf("%d", &num[i]);
 			if (num[i] % 2 != 0) {
 				break;
